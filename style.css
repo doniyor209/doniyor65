@@ -1,0 +1,290 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1220px;
+    margin: 0 auto;
+}
+
+body {
+    background: linear-gradient(0deg, #F9FAFF, #F9FAFF);
+
+}
+
+
+header .container {
+    padding: 30px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+nav ul {
+    display: flex;
+    gap: 50px;
+    list-style: none;
+    align-items: center;
+}
+
+
+a:hover {
+    color: #FF6838;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 28px;
+}
+
+nav ul li a:hover {
+    color: #FF6838;
+}
+
+.btn {
+    width: 120px;
+    height: 50.41px;
+    left: 553px;
+    border-radius: 5px 0px 0px 0px;
+    background-color: #FF6838;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 12px 24px;
+    box-shadow: 0px 22px 40px 0px #FF683830;
+    border: none;
+    text-align: center;
+}
+
+h1 {
+    font-size: 66px;
+    font-weight: 600;
+    line-height: 78.21px;
+    color: #363853;
+}
+
+span {
+    color: #FF6838;
+}
+
+.hero p {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #363853;
+    margin: 23px 0;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+}
+
+.btn1 {
+    width: 120px;
+    height: 50.41px;
+    left: 553px;
+    border-radius: 5px 0px 0px 0px;
+    background-color: #FF6838;
+    font-size: 18px;
+    font-weight: 400;
+    box-shadow: 0px 22px 40px 0px #FF683830;
+    border: none;
+    text-align: center;
+}
+
+.btn2 {
+    width: 176px;
+    height: 58px;
+    top: 1515px;
+    left: 855px;
+    border-radius: 30px 30px 1px 30px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23.7px;
+    text-align: center;
+    background-color: #FF6838;
+}
+
+.restaraunt h2 {
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 30px;
+    text-align: center;
+
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+   padding-top: 50px;
+}
+
+.card {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  
+    
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+}
+
+.card-content {
+    padding: 15px;
+    text-align: center;
+}
+
+.card-content h3 {
+    margin: 10px 0;
+    font-size: 1.2rem;
+    color: #333;
+}
+
+.card-content p {
+    font-size: 0.9rem;
+    color: #777;
+
+}
+
+.card-content a {
+    gap: 10px;
+}
+
+
+
+
+.card-content a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background: #ff7b54;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+
+}
+
+.card-content a:hover {
+    background: #e66a46;
+}
+
+.app-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 50px auto;
+    padding: 20px;
+    gap: 20px;
+}
+
+.app-info {
+
+    max-width: 50%;
+    
+}
+
+.app-info h2 {
+    font-size: 2rem;
+    color: #333;
+}
+
+.app-info h2 span {
+    color: #ff7b54;
+}
+
+.app-info p {
+    margin: 20px 0;
+    color: #777;
+    line-height: 1.6;
+}
+
+
+.hero img{
+    padding-top: 62px; 
+}
+
+
+
+
+
+
+.app-section {
+    flex-direction: column;
+    text-align: center;
+}
+
+.app-info {
+    max-width: 100%;
+}
+
+
+
+
+
+
+
+
+
+.hero-loh {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.pb h2 {
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 47.4px;
+    text-align: center;
+    color: white;
+}
+
+.pb {
+    background-color: #e66a46;
+    width: 1170px;
+    height: 312px;
+    top: 2979px;
+    left: 138px;
+    border-radius: 20px 20px 20px 20px;
+    padding: 59px 0;
+}
+
+.btn5 {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: center;
+    width: 191.1px;
+    height: 58.5px;
+    top: 3166px;
+    left: 941.4px;
+    border-radius: 20px 20px 20px 20px;
+    background: #FF7A50;
+    margin-left: -355px;
+}
+
+.pb input {
+    width: 838.5px;
+    height: 78px;
+    top: 3156.45px;
+    left: 303.75px;
+    border-radius: 20px 20px 20px 20px;
+    margin-left: 165px;
+    margin: 72px 135px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #363853;
+    padding-left: 43px;
+}
